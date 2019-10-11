@@ -6,3 +6,16 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.column {
+  border: 1px solid black;
+  width: 80%;
+  background: white;
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+}
