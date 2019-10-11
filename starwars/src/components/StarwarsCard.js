@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardText, CardBody, CardTitle, CardSubtitle, Col } from "reactstrap";
-const MovieCard = props => {
+const StarwarsCard = props => {
   return (
     <Col className = "column" xs="6" sm="4">
       <Card>
@@ -14,4 +14,4 @@ const MovieCard = props => {
     </Col>
   );
 };
-export default MovieCard;
+export default StarwarsCard;

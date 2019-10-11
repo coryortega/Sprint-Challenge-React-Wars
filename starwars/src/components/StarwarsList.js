@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Container, Row} from 'reactstrap';
+import { Container} from 'reactstrap';
 import StarwarsCard from "./StarwarsCard";
 export default function MovieList() {
-  // NOTE: The value given to useState() must be of the same type as your vale is expected to be
+
   const [films, setFilms] = useState([]);
 
   useEffect(() => {
@@ -24,7 +24,6 @@ export default function MovieList() {
       {films.map(film => {
         return (
           <StarwarsCard
-            // key={film.id}
             name={film.name}
             gender={film.gender}
             mass={film.mass}
