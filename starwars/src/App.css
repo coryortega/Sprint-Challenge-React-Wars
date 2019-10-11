@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+
 .App {
   text-align: center;
 }
@@ -6,3 +8,25 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.column {
+  
+  width: 80%;
+  background-image: url("https://ctl.s6img.com/society6/img/w2lsGjW1olK0i6jwjJIuhE17IkM/w_700/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,iw_4600,ih_2000/s6-0055/a/23273266_13655982/~~/universe-akc-mugs.jpg");
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 5px solid #443e3e;
+  color:  #FFE81F;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+}
